@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #444;
+    background-image: url(https://media.musclewiki.com/media/uploads/workout_different_equipment.jpg);
+    background-size: cover;
+  }
+  .bmicalc{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .bmitext{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(247, 5, 5);
+  }
+  .bmitext1{
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+  }
+  .calculator-container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    transition: 0.3s;
+    position: absolute;
+    right: 15%;
+    top: 20%;
+    background: linear-gradient(135deg, #e82626 0%, #f1961e 100%);
+  }
+  
+  .calculator-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 1px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  input:focus {
+    background-color: #eaeaea;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #00c6ff;
+    background-image: linear-gradient(135deg, #00c8ff, #2600ff);
+    background-color: red;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 114, 255, 0.3);
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    
+    color: white;
+    box-shadow: 0 8px 25px rgba(0, 114, 255, 0.4);
+  }
+  
+  .result {
+    margin-top: 30px;
+  }
+  
+  #bmiResult {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #bmiCategory {
+    font-size: 18px;
+    color: #555;
+  }
+  #height:hover{
+    background-color: rgb(131, 247, 139);
+  }
+  #weight:hover{
+    background-color: rgb(131, 247, 139);
+  }
+  
